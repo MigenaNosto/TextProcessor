@@ -33,12 +33,7 @@ public class TestEngine {
 	private static List<String> italicsList;
 	private static List<List<String>> inputSpec;
 	private static IPlainTextDocumentEngine engine;
-	
 
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-	}
-	
 	
 	@BeforeClass
         public static void onceExecutedBeforeAll(){ 
