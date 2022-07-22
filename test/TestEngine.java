@@ -38,11 +38,13 @@ public class TestEngine {
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
+	
+	
+	@BeforeClass
+        public static void onceExecutedBeforeAll(){ 
+		System.out.println("@BeforeClass: onceExecutedBeforeAll");
+        }
 
-//	@Test
-//	public final void testRegisterInputRuleSet() {
-//		fail("Not yet implemented"); // TODO
-//	}
 
 	private static String setupProfileEcon() {
 		inputSpec = new ArrayList<List<String>>();
